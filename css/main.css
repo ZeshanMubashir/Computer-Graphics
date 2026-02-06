@@ -1,0 +1,16 @@
+﻿body {
+    margin: 0;
+}
+canvas {
+    display: block;
+}
+#container {
+    position: relative;
+}
+#container canvas, #myDiv {
+    position: absolute;
+}
+#myDiv {
+    height: 400px;
+    width: 400px;
+}
